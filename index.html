@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SHOAIB- My Apps</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shoaib/MyApps</title>
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #f0f0f0; /* Light beige background */
+      background-color: #f0f0f0;
       background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/coffee_cups.png');
       background-size: cover;
       background-repeat: repeat;
@@ -17,24 +17,37 @@
       justify-content: center;
       align-items: center;
       min-height: 100vh;
+      padding: 20px;
     }
+
     .container {
-      max-width: 400px;
-      width: 90%;
+      width: 100%;
+      max-width: 450px;
       background-color: rgba(255, 255, 255, 0.85);
       padding: 2rem;
       border-radius: 20px;
       text-align: center;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     }
+
     h1 {
-      margin-bottom: 0.5rem;
+      margin-top: 0;
+      font-size: 1.8rem;
+      color: #1e90ff;
     }
+
+    h2 {
+      margin-top: 1.5rem;
+      font-size: 1.2rem;
+      color: #444;
+    }
+
     p {
       color: #555;
       font-size: 0.95rem;
       margin-bottom: 1.5rem;
     }
+
     .links {
       display: flex;
       justify-content: center;
@@ -42,11 +55,13 @@
       margin-bottom: 2rem;
       flex-wrap: wrap;
     }
+
     .links a {
       text-decoration: none;
       color: #1e90ff;
       font-weight: bold;
     }
+
     .download-btn {
       background-color: #1e90ff;
       color: white;
@@ -57,25 +72,39 @@
       cursor: pointer;
       transition: 0.3s;
     }
+
     .download-btn:hover {
       background-color: #007acc;
+    }
+
+    .coming-soon {
+      margin-top: 2rem;
+      font-style: italic;
+      color: #777;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>🌤️ Weather App</h1>
-    <p>Lightweight iOS-style weather app with 5-day forecast</p>
+    <h1>👨‍💻SHOAIB APPS</h1>
+
+    <h2>🌤️ Weather App</h2>
+    <p>Lightweight iOS-style weather app with 5-day forecast.</p>
 
     <div class="links">
-      <a href="https://www.facebook.com/amir.shoaib.984" target="_blank">Facebook</a>
-      <a href="https://www.instagram.com/unknown.shoaibx/" target="_blank">Instagram</a>
+      <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a>
+      <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
       <a href="https://github.com/shoaibxbwf" target="_blank">GitHub</a>
     </div>
 
     <button class="download-btn" onclick="window.location.href='assets/app-release.apk'">
       Download APK
     </button>
+
+    <div class="coming-soon">
+      📱 More apps coming soon...
+    </div>
   </div>
 </body>
 </html>
