@@ -1,7 +1,7 @@
 # 👨‍💻 Shoaib's App Collection
 
 Welcome to my personal collection of mobile and web apps! All apps are designed with a focus on clean UI, performance, and usefulness. Explore, download, and enjoy!
-[WEBSITE LINK:](https://shoaibxbwf.github.io/DownloadPage/)
+[WEBSITE LINK](https://shoaibxbwf.github.io/DownloadPage/)
 
 ---
 
